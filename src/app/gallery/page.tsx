@@ -1,4 +1,5 @@
 
+import { BottomMenu } from "@/components/BottomMenu";
 import { Footer } from "@/components/Footer";
 import Gallery from "@/components/Gallery";
 import Header from "@/components/Header";
@@ -9,6 +10,7 @@ export default function Home() {
       <Header />
       <Gallery />
       <Footer />
+      <BottomMenu />
     </>
   );
 }

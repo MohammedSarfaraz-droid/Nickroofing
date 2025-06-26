@@ -1,4 +1,5 @@
 
+import { BottomMenu } from "@/components/BottomMenu";
 import { Footer } from "@/components/Footer";
 import Header from "@/components/Header";
 import Services from "@/components/Services";
@@ -9,6 +10,7 @@ export default function Home() {
       <Header />
       <Services/>
       <Footer/>
+      <BottomMenu />
     </>
   );
 }

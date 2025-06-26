@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import { BottomMenu } from "@/components/BottomMenu";
 import Carausal from "@/components/Carausal";
 import { ContactUs } from "@/components/ContactUs";
 import { Footer } from "@/components/Footer";
@@ -16,6 +17,7 @@ export default function Home() {
       <Gallery/>
       <ContactUs/>
       <Footer/>
+      <BottomMenu />
     </>
   );
 }
