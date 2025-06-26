@@ -28,9 +28,12 @@ export default function About() {
             to exceed your expectations.
           </p>
 
-          <button className="mt-4 text-white text-sm uppercase px-[25px] py-[10px] bg-[#36454F] hover:bg-[#2e3d45] transition-all duration-300">
-            More About Us 
-          </button>
+            <a
+            href="/about"
+            className="mt-4 inline-block text-white text-sm uppercase px-[25px] py-[10px] bg-[#36454F] hover:bg-[#2e3d45] transition-all duration-300"
+            >
+            More About Us
+            </a>
         </div>
 
         {/* Right Image with Overlay */}

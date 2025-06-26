@@ -41,10 +41,20 @@ export const Footer = () => {
                             Got a roofing project? We&apos;re here to help!
                         </p>
                         <div style={{ fontFamily: "'Oswald', sans-serif" }} className='text-white text-sm space-y-2'>
-                            <div><span className='font-semibold'>Tel: </span>(973) - 207 - 0689</div>
-                            <div><span className='font-semibold'>Email: </span>nickcontractorllc@gmail.com</div>
-                            <div><span className='font-semibold'>Location: </span>525 Lafayette Ave, Hawthorne, NJ 07506</div>
+                            <div>
+                                <span className='font-semibold'>Tel: </span>
+                                <a href="tel:+19732070689" className="hover:underline">(973) - 207 - 0689</a>
+                            </div>
+                            <div>
+                                <span className='font-semibold'>Email: </span>
+                                <a href="mailto:nickcontractorllc@gmail.com" className="hover:underline">nickcontractorllc@gmail.com</a>
+                            </div>
+                            <div>
+                                <span className='font-semibold'>Location: </span>
+                                525 Lafayette Ave, Hawthorne, NJ 07506
+                            </div>
                         </div>
+
                     </div>
 
                 </div>
