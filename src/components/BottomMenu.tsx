@@ -5,7 +5,7 @@ import { Phone, Mail, MapPin } from 'lucide-react'
 
 export const BottomMenu = () => {
   return (
-    <div className="fixed bottom-0 left-0 w-full bg-[#e07b3b] text-white flex justify-around items-center py-2 shadow-md lg:hidden z-50">
+    <div className="fixed bottom-0 left-0 w-full bg-[#e07b3b] text-white flex justify-around items-center py-2 shadow-md md:hidden z-50">
   {/* Phone */}
   <a href="tel:+19732070689" className="flex flex-col items-center text-xs">
     <Phone className="w-6 h-6 text-[#36454f]" />
