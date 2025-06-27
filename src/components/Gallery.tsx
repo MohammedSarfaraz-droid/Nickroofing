@@ -8,7 +8,7 @@ export default function Gallery() {
             {/* Section Heading */}
             <div className="text-center mb-10">
                 <h2 className="text-xl md:text-l font-semibold tracking-[2px] mb-5 text-[#364f4f]" >
-                    Gallery
+                    Gallery 44
                 </h2>
                 <span
                     className="block mx-auto w-10 h-0.5 bg-[#36454F] mb-7"
